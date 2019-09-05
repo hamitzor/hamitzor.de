@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hamit Zor</title>
+  <link rel='shortcut icon' type='image/x-icon' href='hamitzor.ico' />
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 18px;
+    }
+
+    div.content {
+      height: 100%;
+      background: #C9D6FF;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #E2E2E2, rgb(201, 231, 255));
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #E2E2E2, rgb(201, 231, 255));
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    div.info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: rgb(59, 59, 59);
+      height: 100%;
+    }
+
+    div.name {
+      font-size: 6rem;
+    }
+
+    a.github,
+    a.email {
+      text-decoration: none;
+      font-size: 1.3rem;
+      color: rgb(23, 85, 126);
+      transition: color 200ms;
+      display: block;
+    }
+
+    a.github {
+      margin-top: 10px;
+    }
+
+    div.location {
+      margin-top: 5px;
+      font-size: 1rem;
+      margin-bottom: 100px;
+    }
+
+    div.specialization {
+      font-size: 2.5rem;
+    }
+
+
+
+    @media (min-width:769px) {
+
+      a.github:hover,
+      a.email:hover {
+        color: rgb(67, 118, 151);
+      }
+    }
+
+    @media (max-width:768px) {
+      div.name {
+        font-size: 3rem;
+      }
+
+      a.github,
+      a.email {
+        font-size: 1rem;
+      }
+
+
+      div.location {
+        font-size: 0.8rem;
+
+      }
+
+      div.specialization {
+        font-size: 1.5rem;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content">
+    <div class="info">
+      <div class="name">
+        Hamit Zor
+      </div>
+      <div class="specialization">Software Engineer</div>
+      <a href="https://github.com/hamitzor" class="github">github.com/hamitzor</a>
+      <a href="mailto:thenrerise@gmail.com" class="email">thenrerise@gmail.com</a>
+      <div class="location">
+        Ankara, Turkey
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
