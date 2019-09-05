@@ -8,7 +8,7 @@ const app = express()
 app.enable("trust proxy")
 
 app.get("*", function (req, res, next) {
-  res.sendFile(path.resolve(__dirname, "public", "hamitzor.html"))
+  res.sendFile(path.resolve(__dirname, "public", "index.html"))
 })
 
 app.use(express.static(path.resolve(__dirname, "public")))
